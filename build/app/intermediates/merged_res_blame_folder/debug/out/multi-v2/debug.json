@@ -808,7 +808,7 @@
                     }
                 },
                 {
-                    "source": "D:\\my file\\parvareshi_application\\aviz_application\\aviz_application\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "D:\\my file\\parvareshi_application\\aviz_application\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -847,7 +847,7 @@
             "outputFile": "com.example.aviz_application.app-merged_res-11:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\my file\\parvareshi_application\\aviz_application\\aviz_application\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "D:\\my file\\parvareshi_application\\aviz_application\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

@@ -193,7 +193,7 @@ class _MyAvizScreenState extends State<MyAvizScreen> {
               child: Padding(
                 padding: const EdgeInsets.symmetric(vertical: 10),
                 child: Text(
-                  "سریع ترین ورژن ممکن\n 1.1.1",
+                  "آویز\n 1.1.1",
                   textAlign: TextAlign.center,
                   style: TextStyle(color: Colors.grey.shade400, fontSize: 15),
                 ),

@@ -1,0 +1,1 @@
+ D:\\my\ file\\parvareshi_application\\aviz_application\\.dart_tool\\flutter_build\\25697789fdcc73ab1976eb7c9a4f679f\\native_assets.yaml: 

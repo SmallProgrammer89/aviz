@@ -1,6 +1,4 @@
 import 'package:aviz_application/constants/custom_color.dart';
-import 'package:aviz_application/screens/add_aviz/forth_step.dart';
-import 'package:aviz_application/widgets/step_line_indicator.dart';
 import 'package:aviz_application/widgets/switcher_card.dart';
 import 'package:aviz_application/widgets/titlle_widget.dart';
 import 'package:flutter/material.dart';

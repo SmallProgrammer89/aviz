@@ -515,7 +515,7 @@ class AvizProperty extends StatelessWidget {
                   ? Padding(
                       padding: const EdgeInsets.symmetric(vertical: 10),
                       child: Text(
-                        facilities[((index) / 2).toInt()],
+                        facilities[(index) ~/ 2],
                         style: TextStyle(
                           fontSize: 17,
                           color: CustomColor.textColor,

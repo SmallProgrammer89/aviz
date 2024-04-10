@@ -1,5 +1,4 @@
 import 'package:aviz_application/screens/main_screen.dart';
-import 'package:aviz_application/widgets/step_line_indicator.dart';
 import 'package:aviz_application/widgets/switcher_card.dart';
 import 'package:aviz_application/widgets/titlle_widget.dart';
 import 'package:dotted_border/dotted_border.dart';

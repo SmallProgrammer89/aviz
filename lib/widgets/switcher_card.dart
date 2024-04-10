@@ -1,6 +1,5 @@
 import 'package:aviz_application/constants/custom_color.dart';
 import 'package:flutter/material.dart';
-import 'package:switcher_button/switcher_button.dart';
 
 class SwitcherCard extends StatefulWidget {
   SwitcherCard({
@@ -18,12 +17,6 @@ class SwitcherCard extends StatefulWidget {
 }
 
 class _SwitcherCardState extends State<SwitcherCard> {
-  @override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-  }
-
   @override
   Widget build(BuildContext context) {
     return GestureDetector(

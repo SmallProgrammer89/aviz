@@ -1,6 +1,5 @@
 import 'package:aviz_application/constants/custom_color.dart';
 import 'package:aviz_application/widgets/horizontal_card_item.dart';
-import 'package:aviz_application/widgets/vertical_card_item.dart';
 import 'package:flutter/material.dart';
 
 class SearchScreen extends StatefulWidget {

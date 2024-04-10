@@ -18,12 +18,12 @@ class VerticalCardItem extends StatelessWidget {
           BoxShadow(
               offset: Offset(15, 0),
               color: CustomColor.defaultShadowColor,
-              blurRadius: 20,
+              blurRadius: 15,
               spreadRadius: -20),
           BoxShadow(
               offset: Offset(-15, 0),
               color: CustomColor.defaultShadowColor,
-              blurRadius: 20,
+              blurRadius: 15,
               spreadRadius: -20)
         ],
       ),

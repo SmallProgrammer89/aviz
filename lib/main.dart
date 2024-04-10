@@ -1,3 +1,4 @@
+import 'package:aviz_application/constants/custom_color.dart';
 import 'package:aviz_application/screens/welcome_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +13,20 @@ class Aviz extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(fontFamily: 'shabnam'),
+      theme: ThemeData(
+          fontFamily: 'shabnam',
+          elevatedButtonTheme: ElevatedButtonThemeData(
+            style: ElevatedButton.styleFrom(
+              backgroundColor: CustomColor.customRed,
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero),
+            ),
+          ),
+          outlinedButtonTheme: OutlinedButtonThemeData(
+              style: OutlinedButton.styleFrom(
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.zero,
+            ),
+          ))),
       home: WelcomeScreen(),
     );
   }

@@ -47,9 +47,10 @@ class _HomeAvizScreenState extends State<HomeAvizScreen> {
           ),
           SliverToBoxAdapter(
             child: SizedBox(
-              height: 270,
+              height: 290,
               child: ListView.builder(
                 reverse: true,
+                shrinkWrap: true,
                 scrollDirection: Axis.horizontal,
                 itemBuilder: (context, index) {
                   return GestureDetector(

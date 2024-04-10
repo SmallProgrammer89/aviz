@@ -7,9 +7,9 @@ class VerticalCardItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: 230,
-      height: 270,
+      height: 290,
       padding: const EdgeInsets.all(16),
-      margin: EdgeInsets.symmetric(horizontal: 10),
+      margin: EdgeInsets.symmetric(horizontal: 10, vertical: 15),
       clipBehavior: Clip.antiAlias,
       decoration: ShapeDecoration(
         color: Colors.white,
@@ -21,10 +21,10 @@ class VerticalCardItem extends StatelessWidget {
               blurRadius: 15,
               spreadRadius: -20),
           BoxShadow(
-              offset: Offset(-15, 0),
+              offset: Offset(0, 5),
               color: CustomColor.defaultShadowColor,
-              blurRadius: 15,
-              spreadRadius: -20)
+              blurRadius: 20,
+              spreadRadius: -20),
         ],
       ),
       child: Column(
